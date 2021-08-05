@@ -11,7 +11,7 @@ https://assetstore.unity.com/packages/essentials/tutorial-projects/3d-beginner-t
   
 https://assetstore.unity.com/packages/essentials/tutorial-projects/3d-beginner-complete-project-143846  
   
-Unity m_EditorVersion:  2021.1.12f1  
+Unity m_EditorVersion:  2021.1.16f1  
   
 KEYBOARD  
   

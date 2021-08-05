@@ -53,9 +53,10 @@ public class PlayerMovement : MonoBehaviour
 
     void OnAnimatorMove()
     {
-        //deltaPosition 是由于可以应用于此帧的根运动而导致的 位置变化。
+        //deltaPosition 是由于可以应用于此帧的根运动而导致的位置变化。
         //您将其大小（即长度）乘以我们希望角色移动的 实际方向上的移动向量。
-        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
+        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * 
+            m_Animator.deltaPosition.magnitude);
 
         m_Rigidbody.MoveRotation(m_Rotation);
     }
